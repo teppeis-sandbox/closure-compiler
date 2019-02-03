@@ -1,0 +1,4 @@
+{
+  "extends": ["@teppeis:anytime"],
+  "includeForks": true
+}
