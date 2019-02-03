@@ -25,9 +25,6 @@ script:
 # Causes the build to run on a VM instead of in a container, to avoid OOM errors.
 sudo: required
 
-after_success:
-  - travis_util/deploy_snapshot.sh
-
 env:
   global:
     # Force maven to use colorized output
