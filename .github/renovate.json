@@ -1,4 +1,5 @@
 {
   "extends": ["@teppeis:anytime"],
+  "maven": true,
   "includeForks": true
 }
